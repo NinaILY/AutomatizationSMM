@@ -1,0 +1,56 @@
+﻿<UserControl x:Class="AutomatizationSMM.Facebook"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:AutomatizationSMM"
+             mc:Ignorable="d" 
+             d:DesignHeight="500" d:DesignWidth="515">
+
+    <Grid >
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="4*"/>
+            <RowDefinition Height="0.7*"/>
+            <RowDefinition Height="0.5*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <Image Grid.Row="0" Width="30" Height="30" HorizontalAlignment="Left" Margin="5,5,0,0" VerticalAlignment="Top" Source="/Новая папка/загруж.png">
+            <Image.OpacityMask>
+                <ImageBrush ImageSource="/Новая папка/загруж.png"/>
+            </Image.OpacityMask>
+        </Image>
+        <Label Grid.Row="0" Width="65" Height="25" Content="Ahd Grtdd" FontSize="11" HorizontalAlignment="Left" Margin="40,5,0,0" VerticalAlignment="Top" Background="{x:Null}" FontFamily="Arial Narrow"/>
+        <TextBlock Grid.Row="0" Width="430" Height="36" VerticalAlignment="Bottom" Background="#FFE6F5FA" />
+        <Image Grid.Row="1" Width="445" Source="/Новая папка/unnamed.png" >
+            <Image.OpacityMask>
+                <ImageBrush ImageSource="/Новая папка/unnamed.png"/>
+            </Image.OpacityMask>
+        </Image>
+        <Label Grid.Row="2" Width="30" Height="25" Content="Like" HorizontalAlignment="Left" Margin="10,0,0,0"/>
+        <Label Grid.Row="2" Width="10" Height="25" Content="0" HorizontalAlignment="Left" Margin="47,0,0,0" VerticalAlignment="Center" />
+        <Label Grid.Row="2" Width="63" Height="25" Content="Comment" HorizontalAlignment="Left" Margin="58,0,0,0"/>
+        <Label Grid.Row="2" Width="10" Height="25" Content="0" HorizontalAlignment="Left" Margin="123,0,0,0" VerticalAlignment="Center"/>
+        <Label Grid.Row="2" Width="40" Height="25" Content="Share" FontSize="12" HorizontalAlignment="Left" Margin="133,0,0,0"/>
+        <Label Grid.Row="3" Width="60" Height="25" Content="Какой-то " HorizontalAlignment="Left" Margin="20,0,0,0" VerticalAlignment="Stretch"/>
+        <Label Grid.Row="3" Width="30" Height="25" Content="Ник" HorizontalAlignment="Left" Margin="80,0,0,0"/>
+        <Label Grid.Row="3" Width="65" Height="25" Content="лайкнул и " HorizontalAlignment="Left" Margin="110,0,0,0"/>
+        <Label Grid.Row="3" Width="45" Height="25" Content="число" HorizontalAlignment="Left" Margin="170,0,0,0"/>
+        <Label Grid.Row="3" Width="65" Height="25" Content="человек(а)" HorizontalAlignment="Left" Margin="210,0,0,0"/>
+        <Image Grid.Row="3" HorizontalAlignment="Left" Width="15" Height="20" Margin="3,0,0,0" Source="/Новая папка/загружено.png">
+            <Image.OpacityMask>
+                <ImageBrush ImageSource="/Новая папка/загружено.png"/>
+            </Image.OpacityMask>
+        </Image>
+        <Image Grid.Row="4" Width="30" Height="30" HorizontalAlignment="Left" Margin="5,5,0,0" VerticalAlignment="Top" Source="/Новая папка/загруж.png">
+            <Image.OpacityMask>
+                <ImageBrush ImageSource="/Новая папка/загруж.png" Stretch="Fill" TileMode="None"/>
+            </Image.OpacityMask>
+        </Image>
+        <Label Grid.Row="4" Width="65" Height="25" Content="FKVM REDKKD" FontSize="11" HorizontalAlignment="Left" Margin="40,5,0,0" VerticalAlignment="Top" />
+        <TextBlock Grid.Row="4" Width="430" Height="33" VerticalAlignment="Bottom" Background="#FFE7F8FC" Foreground="#FF0F0F0F" />
+
+    </Grid>
+
+</UserControl>
